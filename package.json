@@ -1,0 +1,146 @@
+{
+  "name": "@stdlib/array-pool",
+  "version": "0.0.0",
+  "description": "Typed array pool.",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "The Stdlib Authors",
+    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+    }
+  ],
+  "main": "./lib",
+  "directories": {
+    "benchmark": "./benchmark",
+    "doc": "./docs",
+    "example": "./examples",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "types": "./docs/types",
+  "scripts": {
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples",
+    "benchmark": "make benchmark"
+  },
+  "homepage": "https://github.com/stdlib-js/stdlib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/array-pool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "dependencies": {
+    "@stdlib/array-buffer": "^0.0.x",
+    "@stdlib/array-typed-ctors": "^0.0.x",
+    "@stdlib/assert-has-own-property": "^0.0.x",
+    "@stdlib/assert-is-arraybuffer": "^0.0.x",
+    "@stdlib/assert-is-collection": "^0.0.x",
+    "@stdlib/assert-is-nonnegative-integer": "^0.0.x",
+    "@stdlib/assert-is-plain-object": "^0.0.x",
+    "@stdlib/assert-is-string": "^0.0.x",
+    "@stdlib/assert-is-typed-array-like": "^0.0.x",
+    "@stdlib/math-base-special-ceil": "^0.0.x",
+    "@stdlib/math-base-special-ceil2": "^0.0.x",
+    "@stdlib/math-base-special-floor": "^0.0.x",
+    "@stdlib/math-base-special-log2": "^0.0.x",
+    "@stdlib/math-base-special-min": "^0.0.x",
+    "@stdlib/types": "^0.0.x",
+    "@stdlib/utils-copy": "^0.0.x",
+    "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.0.x",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x"
+  },
+  "devDependencies": {
+    "@stdlib/array-float32": "^0.0.x",
+    "@stdlib/array-float64": "^0.0.x",
+    "@stdlib/array-int16": "^0.0.x",
+    "@stdlib/array-int32": "^0.0.x",
+    "@stdlib/array-int8": "^0.0.x",
+    "@stdlib/array-uint16": "^0.0.x",
+    "@stdlib/array-uint32": "^0.0.x",
+    "@stdlib/array-uint8": "^0.0.x",
+    "@stdlib/array-uint8c": "^0.0.x",
+    "@stdlib/assert-instance-of": "^0.0.x",
+    "@stdlib/assert-is-function": "^0.0.x",
+    "@stdlib/assert-is-typed-array": "^0.0.x",
+    "@stdlib/bench": "^0.0.x",
+    "@stdlib/math-base-special-pow": "^0.0.x",
+    "@stdlib/random-base-randu": "^0.0.x",
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-spec": "5.x.x"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">2.7.0"
+  },
+  "os": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "macos",
+    "openbsd",
+    "sunos",
+    "win32",
+    "windows"
+  ],
+  "keywords": [
+    "stdlib",
+    "stdtypes",
+    "types",
+    "data",
+    "structure",
+    "typed",
+    "array",
+    "typed array",
+    "typed-array",
+    "vector",
+    "ndarray",
+    "matrix",
+    "float64array",
+    "float32array",
+    "int32array",
+    "uint32array",
+    "int16array",
+    "uint16array",
+    "int8array",
+    "uint8array",
+    "uint8clampedarray",
+    "float64",
+    "double",
+    "precision",
+    "double-precision",
+    "single",
+    "float",
+    "single-precision",
+    "float32",
+    "ieee754",
+    "integer",
+    "int32",
+    "signed",
+    "unsigned",
+    "uint32",
+    "int16",
+    "uint16",
+    "int8",
+    "uint8",
+    "uint8c",
+    "clamped",
+    "short",
+    "long",
+    "pool",
+    "memory",
+    "mem"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
