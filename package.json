@@ -39,7 +39,6 @@
   "dependencies": {
     "@stdlib/array-base-arraylike2object": "^0.0.x",
     "@stdlib/array-buffer": "^0.0.x",
-    "@stdlib/array-typed-complex-ctors": "^0.0.x",
     "@stdlib/array-typed-ctors": "^0.0.x",
     "@stdlib/assert-has-own-property": "^0.0.x",
     "@stdlib/assert-is-arraybuffer": "^0.0.x",
