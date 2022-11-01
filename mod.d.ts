@@ -18,7 +18,7 @@
 
 // TypeScript Version: 2.0
 
-/// <reference types="@stdlib/types"/>
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
 import { ArrayLike, RealOrComplexTypedArray, RealOrComplexDataType as DataType } from '@stdlib/types/array';
 import ArrayBuffer = require( '@stdlib/array-buffer' );
