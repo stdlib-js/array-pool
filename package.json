@@ -37,8 +37,9 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-arraylike2object": "^0.0.x",
+    "@stdlib/array-base-accessors": "^0.0.x",
     "@stdlib/array-buffer": "^0.0.x",
+    "@stdlib/array-dtype": "^0.0.x",
     "@stdlib/array-typed-ctors": "^0.0.x",
     "@stdlib/assert-has-own-property": "^0.0.x",
     "@stdlib/assert-is-arraybuffer": "^0.0.x",
