@@ -3,8 +3,31 @@
   "version": "0.1.0",
   "description": "Typed array pool.",
   "license": "Apache-2.0",
-  "type": "module",
-  "main": "./index.mjs",
+  "author": {
+    "name": "The Stdlib Authors",
+    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+    }
+  ],
+  "main": "./lib",
+  "directories": {
+    "benchmark": "./benchmark",
+    "doc": "./docs",
+    "example": "./examples",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "types": "./docs/types",
+  "scripts": {
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples",
+    "benchmark": "make benchmark"
+  },
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -13,6 +36,76 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
+  "dependencies": {
+    "@stdlib/array-base-accessors": "^0.1.0",
+    "@stdlib/array-buffer": "^0.1.0",
+    "@stdlib/array-dtype": "^0.1.0",
+    "@stdlib/array-typed-ctors": "^0.1.0",
+    "@stdlib/assert-has-own-property": "^0.1.1",
+    "@stdlib/assert-is-arraybuffer": "^0.1.1",
+    "@stdlib/assert-is-collection": "^0.1.0",
+    "@stdlib/assert-is-complex128array": "^0.1.0",
+    "@stdlib/assert-is-complex64array": "^0.1.0",
+    "@stdlib/assert-is-nonnegative-integer": "^0.1.0",
+    "@stdlib/assert-is-plain-object": "^0.1.1",
+    "@stdlib/assert-is-string": "^0.1.1",
+    "@stdlib/assert-is-typed-array-like": "^0.1.0",
+    "@stdlib/math-base-special-ceil": "^0.1.1",
+    "@stdlib/math-base-special-ceil2": "^0.1.0",
+    "@stdlib/math-base-special-floor": "^0.1.1",
+    "@stdlib/math-base-special-log2": "^0.1.1",
+    "@stdlib/math-base-special-min": "^0.1.1",
+    "@stdlib/strided-base-reinterpret-complex128": "^0.1.1",
+    "@stdlib/strided-base-reinterpret-complex64": "^0.1.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1",
+    "@stdlib/types": "^0.2.0",
+    "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.1.1",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1"
+  },
+  "devDependencies": {
+    "@stdlib/array-complex128": "^0.1.0",
+    "@stdlib/array-complex64": "^0.1.0",
+    "@stdlib/array-float32": "^0.1.1",
+    "@stdlib/array-float64": "^0.1.1",
+    "@stdlib/array-int16": "^0.1.1",
+    "@stdlib/array-int32": "^0.1.1",
+    "@stdlib/array-int8": "^0.1.1",
+    "@stdlib/array-uint16": "^0.1.1",
+    "@stdlib/array-uint32": "^0.1.1",
+    "@stdlib/array-uint8": "^0.1.1",
+    "@stdlib/array-uint8c": "^0.1.1",
+    "@stdlib/assert-instance-of": "^0.1.1",
+    "@stdlib/assert-is-complex-typed-array": "^0.1.0",
+    "@stdlib/assert-is-function": "^0.1.1",
+    "@stdlib/assert-is-typed-array": "^0.1.0",
+    "@stdlib/bench": "^0.2.0",
+    "@stdlib/complex-float32": "^0.1.1",
+    "@stdlib/complex-float64": "^0.1.1",
+    "@stdlib/complex-imag": "^0.1.1",
+    "@stdlib/complex-imagf": "^0.1.1",
+    "@stdlib/complex-real": "^0.1.1",
+    "@stdlib/complex-realf": "^0.1.1",
+    "@stdlib/math-base-special-pow": "^0.1.0",
+    "@stdlib/random-base-randu": "^0.1.0",
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">2.7.0"
+  },
+  "os": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "macos",
+    "openbsd",
+    "sunos",
+    "win32",
+    "windows"
+  ],
   "keywords": [
     "stdlib",
     "stdtypes",
