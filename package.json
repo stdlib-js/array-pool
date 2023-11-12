@@ -58,7 +58,7 @@
     "@stdlib/strided-base-reinterpret-complex128": "^0.1.1",
     "@stdlib/strided-base-reinterpret-complex64": "^0.1.1",
     "@stdlib/string-format": "^0.1.1",
-    "@stdlib/types": "^0.1.0",
+    "@stdlib/types": "^0.2.0",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.1.1",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1"
   },
@@ -78,7 +78,7 @@
     "@stdlib/assert-is-complex-typed-array": "^0.1.0",
     "@stdlib/assert-is-function": "^0.1.1",
     "@stdlib/assert-is-typed-array": "^0.1.0",
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.0",
     "@stdlib/complex-float32": "^0.1.1",
     "@stdlib/complex-float64": "^0.1.1",
     "@stdlib/complex-imag": "^0.1.1",
