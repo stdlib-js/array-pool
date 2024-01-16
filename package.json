@@ -39,6 +39,7 @@
   "dependencies": {
     "@stdlib/array-base-accessors": "^0.1.0",
     "@stdlib/array-buffer": "^0.1.0",
+    "@stdlib/array-defaults": "^0.1.0",
     "@stdlib/array-dtype": "^0.1.0",
     "@stdlib/array-typed-ctors": "^0.1.0",
     "@stdlib/assert-has-own-property": "^0.1.1",
