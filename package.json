@@ -37,10 +37,10 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-accessors": "^0.1.0",
+    "@stdlib/array-base-resolve-getter": "^0.1.0",
+    "@stdlib/array-base-resolve-setter": "github:stdlib-js/array-base-resolve-setter#main",
     "@stdlib/array-buffer": "^0.1.0",
     "@stdlib/array-defaults": "^0.1.0",
-    "@stdlib/array-dtype": "^0.1.0",
     "@stdlib/array-typed-ctors": "^0.1.0",
     "@stdlib/assert-has-own-property": "^0.1.1",
     "@stdlib/assert-is-arraybuffer": "^0.1.1",
@@ -59,7 +59,7 @@
     "@stdlib/strided-base-reinterpret-complex128": "^0.1.1",
     "@stdlib/strided-base-reinterpret-complex64": "^0.1.1",
     "@stdlib/string-format": "^0.1.1",
-    "@stdlib/types": "^0.2.0",
+    "@stdlib/types": "^0.3.1",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.1.1",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1"
   },
