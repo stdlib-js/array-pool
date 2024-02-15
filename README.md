@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import typedarraypool from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-pool@deno/mod.js';
+import typedarraypool from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-pool@v0.2.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-pool@deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-pool@v0.2.0-deno/mod.js';
 ```
 
 #### typedarraypool( \[dtype] )
@@ -387,7 +387,7 @@ pool.free( arr );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import typedarraypool from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-pool@deno/mod.js';
+import typedarraypool from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-pool@v0.2.0-deno/mod.js';
 
 // Create a typed array pool which can allocate at most 1GB:
 var typedarray = typedarraypool.factory({
