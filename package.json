@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-resolve-getter": "^0.2.0",
+    "@stdlib/array-base-resolve-getter": "^0.2.1",
     "@stdlib/array-base-resolve-setter": "^0.2.1",
     "@stdlib/array-buffer": "^0.2.1",
     "@stdlib/array-defaults": "^0.2.1",
@@ -65,8 +65,8 @@
     "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
-    "@stdlib/array-complex128": "^0.2.0",
-    "@stdlib/array-complex64": "^0.2.0",
+    "@stdlib/array-complex128": "^0.2.1",
+    "@stdlib/array-complex64": "^0.2.1",
     "@stdlib/array-float32": "^0.2.1",
     "@stdlib/array-float64": "^0.2.1",
     "@stdlib/array-int16": "^0.2.1",
@@ -87,7 +87,7 @@
     "@stdlib/complex-real": "^0.2.1",
     "@stdlib/complex-realf": "^0.2.1",
     "@stdlib/math-base-special-pow": "^0.2.1",
-    "@stdlib/random-base-randu": "^0.2.0",
+    "@stdlib/random-base-randu": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
