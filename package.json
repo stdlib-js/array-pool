@@ -53,7 +53,7 @@
     "@stdlib/assert-is-typed-array-like": "^0.2.1",
     "@stdlib/math-base-special-ceil": "^0.2.1",
     "@stdlib/math-base-special-ceil2": "^0.2.1",
-    "@stdlib/math-base-special-floor": "^0.2.1",
+    "@stdlib/math-base-special-floor": "^0.2.2",
     "@stdlib/math-base-special-log2": "^0.2.1",
     "@stdlib/math-base-special-min": "^0.2.1",
     "@stdlib/strided-base-reinterpret-complex128": "^0.2.1",
