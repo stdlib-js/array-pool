@@ -37,6 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/array-base-assert-is-complex-floating-point-data-type": "^0.2.1",
     "@stdlib/array-base-resolve-getter": "^0.2.1",
     "@stdlib/array-base-resolve-setter": "^0.2.1",
     "@stdlib/array-buffer": "^0.2.1",
@@ -44,6 +45,7 @@
     "@stdlib/array-typed-ctors": "^0.2.1",
     "@stdlib/assert-has-own-property": "^0.2.1",
     "@stdlib/assert-is-arraybuffer": "^0.2.1",
+    "@stdlib/assert-is-booleanarray": "^0.0.1",
     "@stdlib/assert-is-collection": "^0.2.1",
     "@stdlib/assert-is-complex128array": "^0.2.1",
     "@stdlib/assert-is-complex64array": "^0.2.1",
@@ -56,6 +58,7 @@
     "@stdlib/math-base-special-floor": "^0.2.2",
     "@stdlib/math-base-special-log2": "^0.2.1",
     "@stdlib/math-base-special-min": "^0.2.2",
+    "@stdlib/strided-base-reinterpret-boolean": "^0.0.1",
     "@stdlib/strided-base-reinterpret-complex128": "^0.2.1",
     "@stdlib/strided-base-reinterpret-complex64": "^0.2.0",
     "@stdlib/string-format": "^0.2.1",
@@ -65,6 +68,7 @@
     "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
+    "@stdlib/array-bool": "^0.0.1",
     "@stdlib/array-complex128": "^0.2.1",
     "@stdlib/array-complex64": "^0.2.1",
     "@stdlib/array-float32": "^0.2.1",
@@ -80,8 +84,9 @@
     "@stdlib/assert-is-complex-typed-array": "^0.2.1",
     "@stdlib/assert-is-function": "^0.2.1",
     "@stdlib/assert-is-typed-array": "^0.2.1",
-    "@stdlib/complex-float32-ctor": "github:stdlib-js/complex-float32-ctor#main",
-    "@stdlib/complex-float64-ctor": "github:stdlib-js/complex-float64-ctor#main",
+    "@stdlib/boolean-ctor": "^0.2.1",
+    "@stdlib/complex-float32-ctor": "^0.0.1",
+    "@stdlib/complex-float64-ctor": "^0.0.1",
     "@stdlib/complex-imag": "^0.2.1",
     "@stdlib/complex-imagf": "^0.2.1",
     "@stdlib/complex-real": "^0.2.1",

@@ -1,14 +1,53 @@
-"use strict";var l=function(n,i){return function(){return i||n((i={exports:{}}).exports,i),i.exports}};var M=l(function(Er,w){
-function I(){return{highWaterMark:9007199254740992}}w.exports=I
-});var T=l(function(Tr,E){
-var U=require('@stdlib/assert-is-plain-object/dist'),z=require('@stdlib/assert-has-own-property/dist'),G=require('@stdlib/assert-is-nonnegative-integer/dist').isPrimitive,k=require('@stdlib/error-tools-fmtprodmsg/dist');function H(n,i){return U(i)?z(i,"highWaterMark")&&(n.highWaterMark=i.highWaterMark,!G(n.highWaterMark))?new TypeError(k('01H2t',"highWaterMark",n.highWaterMark)):null:new TypeError(k('01H2V',i));}E.exports=H
-});var C=l(function(Wr,W){
-function J(n){var i,u;for(i=[],u=0;u<n+1;u++)i.push([]);return i}W.exports=J
-});var O=l(function(Cr,K){K.exports={float64:8,float32:4,int16:2,int32:4,int8:1,uint16:2,uint32:4,uint8:1,uint8c:1,complex64:8,complex128:16}});var q=l(function(Or,B){
-var Q=require('@stdlib/assert-is-string/dist').isPrimitive,X=require('@stdlib/assert-is-nonnegative-integer/dist').isPrimitive,Z=require('@stdlib/assert-is-collection/dist'),$=require('@stdlib/assert-is-typed-array-like/dist'),rr=require('@stdlib/assert-is-arraybuffer/dist'),er=require('@stdlib/assert-is-complex64array/dist'),tr=require('@stdlib/assert-is-complex128array/dist'),g=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),ar=require('@stdlib/utils-define-nonenumerable-read-only-accessor/dist'),y=require('@stdlib/array-typed-ctors/dist'),P=require('@stdlib/strided-base-reinterpret-complex64/dist'),b=require('@stdlib/strided-base-reinterpret-complex128/dist'),ir=require('@stdlib/array-base-resolve-getter/dist'),nr=require('@stdlib/array-base-resolve-setter/dist'),ur=require('@stdlib/array-defaults/dist'),m=require('@stdlib/error-tools-fmtprodmsg/dist'),or=require('@stdlib/array-buffer/dist'),sr=require('@stdlib/math-base-special-ceil/dist'),lr=require('@stdlib/math-base-special-floor/dist'),vr=require('@stdlib/math-base-special-ceil2/dist'),p=require('@stdlib/math-base-special-log2/dist'),fr=require('@stdlib/math-base-special-min/dist'),gr=M(),cr=T(),hr=C(),mr=O(),pr=ur.get("dtypes.default"),yr=y("complex64"),qr=y("complex128");function L(n){return n instanceof yr}function R(n){return n instanceof qr}function dr(n){var i,u,v,h;if(v=gr(),arguments.length&&(h=cr(v,n),h))throw h;return u=hr(sr(p(v.highWaterMark))),i=0,g(o,"malloc",o),g(o,"calloc",D),g(o,"free",F),g(o,"clear",Y),g(o,"highWaterMark",v.highWaterMark),ar(o,"nbytes",_),o;function _(){return i}function j(r){var e,a;return a=p(r),a<u.length&&u[a].length?u[a].pop():i+r>v.highWaterMark?null:(e=new or(r),i+=r,e)}function d(r,e,a){var t;return e===0?new r(0):(t=j(vr(e)*mr[a]),t===null?t:new r(t,0,e))}function o(){var r,e,a,t,s,x,A,c,f;if(r=arguments.length,r&&Q(arguments[r-1])?(r-=1,e=arguments[r]):e=pr,a=y(e),a===null)throw new TypeError(m('01H2Y',e));if(r<=0)return new a(0);if(X(arguments[0]))return d(a,arguments[0],e);if(Z(arguments[0])){if(t=arguments[0],c=t.length,tr(t)?t=b(t,0):er(t)?t=P(t,0):/^complex/.test(e)&&(c/=2),s=d(a,c,e),s===null)return s;if(R(s)||L(s))return s.set(t),s;for(A=ir(t),x=nr(s),f=0;f<c;f++)x(s,f,A(t,f));return s}throw new TypeError(m('01H2r',arguments[0]))}function D(){var r,e,a,t;if(r=arguments.length,r===0?e=o():r===1?e=o(arguments[0]):e=o(arguments[0],arguments[1]),e!==null)for(R(e)?a=b(e,0):L(e)?a=P(e,0):a=e,t=0;t<a.length;t++)a[t]=0;return e}function F(r){var e,a,t;if($(r)&&r.buffer)r=r.buffer;else if(!rr(r))throw new TypeError(m('01H2s',r));if(r.byteLength>0){for(e=lr(p(r.byteLength)),e=fr(u.length-1,e),a=u[e],t=0;t<a.length;t++)if(a[t]===r)return!1;a.push(r)}return!0}function Y(){var r;for(r=0;r<u.length;r++)u[r].length=0;i=0}}B.exports=dr
-});var S=l(function(Pr,N){
-var xr=q(),Ar=xr();N.exports=Ar
-});var wr=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),V=S(),Mr=q();wr(V,"factory",Mr);module.exports=V;
-/** @license Apache-2.0 */
-/** @license Apache-2.0 */
+"use strict";var s=function(n,i){return function(){return i||n((i={exports:{}}).exports,i),i.exports}};var M=s(function(Cr,w){"use strict";function z(){return{highWaterMark:9007199254740992}}w.exports=z});var T=s(function(Or,E){"use strict";var G=require("@stdlib/assert-is-plain-object"),H=require("@stdlib/assert-has-own-property"),J=require("@stdlib/assert-is-nonnegative-integer").isPrimitive,k=require("@stdlib/string-format");function K(n,i){return G(i)?H(i,"highWaterMark")&&(n.highWaterMark=i.highWaterMark,!J(n.highWaterMark))?new TypeError(k("invalid option. `%s` option must be a nonnegative integer. Option: `%s`.","highWaterMark",n.highWaterMark)):null:new TypeError(k("invalid argument. Options argument must be an object. Value: `%s`.",i))}E.exports=K});var B=s(function(Pr,W){"use strict";function Q(n){var i,u;for(i=[],u=0;u<n+1;u++)i.push([]);return i}W.exports=Q});var b=s(function(Lr,X){X.exports={bool:1,float64:8,float32:4,int16:2,int32:4,int8:1,uint16:2,uint32:4,uint8:1,uint8c:1,complex64:8,complex128:16}});var q=s(function(Rr,D){"use strict";var Z=require("@stdlib/assert-is-string").isPrimitive,$=require("@stdlib/assert-is-nonnegative-integer").isPrimitive,rr=require("@stdlib/assert-is-collection"),er=require("@stdlib/assert-is-typed-array-like"),ar=require("@stdlib/assert-is-arraybuffer"),tr=require("@stdlib/array-base-assert-is-complex-floating-point-data-type"),ir=require("@stdlib/assert-is-complex64array"),nr=require("@stdlib/assert-is-complex128array"),ur=require("@stdlib/assert-is-booleanarray"),g=require("@stdlib/utils-define-nonenumerable-read-only-property"),or=require("@stdlib/utils-define-nonenumerable-read-only-accessor"),p=require("@stdlib/array-typed-ctors"),C=require("@stdlib/strided-base-reinterpret-complex64"),O=require("@stdlib/strided-base-reinterpret-complex128"),P=require("@stdlib/strided-base-reinterpret-boolean"),lr=require("@stdlib/array-base-resolve-getter"),sr=require("@stdlib/array-base-resolve-setter"),vr=require("@stdlib/array-defaults"),y=require("@stdlib/string-format"),fr=require("@stdlib/array-buffer"),gr=require("@stdlib/math-base-special-ceil"),cr=require("@stdlib/math-base-special-floor"),pr=require("@stdlib/math-base-special-ceil2"),m=require("@stdlib/math-base-special-log2"),hr=require("@stdlib/math-base-special-min"),yr=M(),mr=T(),qr=B(),dr=b(),Ar=vr.get("dtypes.default"),xr=p("complex64"),wr=p("complex128"),Mr=p("bool");function L(n){return n instanceof xr}function R(n){return n instanceof wr}function N(n){return n instanceof Mr}function kr(n){var i,u,v,h;if(v=yr(),arguments.length&&(h=mr(v,n),h))throw h;return u=qr(gr(m(v.highWaterMark))),i=0,g(o,"malloc",o),g(o,"calloc",Y),g(o,"free",I),g(o,"clear",U),g(o,"highWaterMark",v.highWaterMark),or(o,"nbytes",j),o;function j(){return i}function F(r){var e,t;return t=m(r),t<u.length&&u[t].length?u[t].pop():i+r>v.highWaterMark?null:(e=new fr(r),i+=r,e)}function d(r,e,t){var a;return e===0?new r(0):(a=F(pr(e)*dr[t]),a===null?a:new r(a,0,e))}function o(){var r,e,t,a,l,A,x,c,f;if(r=arguments.length,r&&Z(arguments[r-1])?(r-=1,e=arguments[r]):e=Ar,t=p(e),t===null)throw new TypeError(y("invalid argument. Must provide a recognized data type. Value: `%s`.",e));if(r<=0)return new t(0);if($(arguments[0]))return d(t,arguments[0],e);if(rr(arguments[0])){if(a=arguments[0],c=a.length,nr(a)?a=O(a,0):ir(a)?a=C(a,0):ur(a)?a=P(a,0):tr(e)&&(c/=2),l=d(t,c,e),l===null)return l;if(R(l)||L(l)||N(l))return l.set(a),l;for(x=lr(a),A=sr(l),f=0;f<c;f++)A(l,f,x(a,f));return l}throw new TypeError(y("invalid argument. First argument must be either an array length or an array-like object. Value: `%s`.",arguments[0]))}function Y(){var r,e,t,a;if(r=arguments.length,r===0?e=o():r===1?e=o(arguments[0]):e=o(arguments[0],arguments[1]),e!==null)for(R(e)?t=O(e,0):L(e)?t=C(e,0):N(e)?t=P(e,0):t=e,a=0;a<t.length;a++)t[a]=0;return e}function I(r){var e,t,a;if(er(r)&&r.buffer)r=r.buffer;else if(!ar(r))throw new TypeError(y("invalid argument. Must provide a typed array or ArrayBuffer. Value: `%s`.",r));if(r.byteLength>0){for(e=cr(m(r.byteLength)),e=hr(u.length-1,e),t=u[e],a=0;a<t.length;a++)if(t[a]===r)return!1;t.push(r)}return!0}function U(){var r;for(r=0;r<u.length;r++)u[r].length=0;i=0}}D.exports=kr});var V=s(function(Nr,S){"use strict";var Er=q(),Tr=Er();S.exports=Tr});var Wr=require("@stdlib/utils-define-nonenumerable-read-only-property"),_=V(),Br=q();Wr(_,"factory",Br);module.exports=_;
+/**
+* @license Apache-2.0
+*
+* Copyright (c) 2023 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+/**
+* @license Apache-2.0
+*
+* Copyright (c) 2018 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+/**
+* @license Apache-2.0
+*
+* Copyright (c) 2024 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
 //# sourceMappingURL=index.js.map
