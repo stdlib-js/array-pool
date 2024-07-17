@@ -90,7 +90,7 @@
     "@stdlib/complex-float32-real": "github:stdlib-js/complex-float32-real#main",
     "@stdlib/complex-float64-ctor": "^0.0.1",
     "@stdlib/complex-float64-imag": "github:stdlib-js/complex-float64-imag#main",
-    "@stdlib/complex-real": "^0.2.1",
+    "@stdlib/complex-float64-real": "github:stdlib-js/complex-float64-real#main",
     "@stdlib/math-base-special-pow": "^0.2.1",
     "@stdlib/random-base-randu": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
