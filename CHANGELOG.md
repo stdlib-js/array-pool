@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-21)
+## Unreleased (2026-01-23)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`cccf137`](https://github.com/stdlib-js/stdlib/commit/cccf1373cfe50773b96a7d2a4a538ed54987780b) - **bench:** refactor to use string interpolation in `array/pool` [(#9862)](https://github.com/stdlib-js/stdlib/pull/9862) _(by Sagar Ratna Chaudhary)_
 -   [`a36e532`](https://github.com/stdlib-js/stdlib/commit/a36e5328871d2e351a19a00e75eb0d386702e870) - **chore:** address commit comments for commit `5acfd64` [(#7919)](https://github.com/stdlib-js/stdlib/pull/7919) _(by Nakul Krishnakumar)_
 -   [`5acfd64`](https://github.com/stdlib-js/stdlib/commit/5acfd64326637640433a7e3ffc5d101db23ab1d8) - **docs:** fix example code _(by Philipp Burckhardt)_
 -   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
@@ -56,12 +57,13 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Jaysukh Makvana
 -   Nakul Krishnakumar
 -   Philipp Burckhardt
+-   Sagar Ratna Chaudhary
 
 </section>
 
