@@ -37,12 +37,12 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-assert-is-complex-floating-point-data-type": "^0.2.1",
-    "@stdlib/array-base-resolve-getter": "^0.2.2",
+    "@stdlib/array-base-assert-is-complex-floating-point-data-type": "^0.2.2",
+    "@stdlib/array-base-resolve-getter": "^0.2.3",
     "@stdlib/array-base-resolve-setter": "^0.2.3",
     "@stdlib/array-buffer": "^0.2.3",
     "@stdlib/array-defaults": "^0.4.1",
-    "@stdlib/array-typed-ctors": "^0.3.0",
+    "@stdlib/array-typed-ctors": "^0.3.1",
     "@stdlib/assert-has-own-property": "^0.2.3",
     "@stdlib/assert-is-arraybuffer": "^0.2.3",
     "@stdlib/assert-is-booleanarray": "^0.0.3",
@@ -68,9 +68,9 @@
     "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {
-    "@stdlib/array-bool": "^0.1.1",
-    "@stdlib/array-complex128": "^0.3.1",
-    "@stdlib/array-complex64": "^0.3.1",
+    "@stdlib/array-bool": "^0.1.2",
+    "@stdlib/array-complex128": "^0.3.2",
+    "@stdlib/array-complex64": "^0.3.2",
     "@stdlib/array-float32": "^0.2.3",
     "@stdlib/array-float64": "^0.2.3",
     "@stdlib/array-int16": "^0.2.3",
@@ -92,7 +92,7 @@
     "@stdlib/complex-float64-imag": "^0.1.2",
     "@stdlib/complex-float64-real": "^0.1.2",
     "@stdlib/math-base-special-pow": "^0.3.1",
-    "@stdlib/random-base-randu": "^0.2.2",
+    "@stdlib/random-base-randu": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
