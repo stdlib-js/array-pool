@@ -2,6 +2,50 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-09-01)
+
+<section class="features">
+
+### Features
+
+-   [`b853474`](https://github.com/stdlib-js/stdlib/commit/b853474ea8ebd410f2e4f40dfe40af14803f65bc) - add float16 dtype support to `array/pool` [(#14855)](https://github.com/stdlib-js/stdlib/pull/14855)
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`b853474`](https://github.com/stdlib-js/stdlib/commit/b853474ea8ebd410f2e4f40dfe40af14803f65bc) - **feat:** add float16 dtype support to `array/pool` [(#14855)](https://github.com/stdlib-js/stdlib/pull/14855) _(by Gururaj Gurram)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Gururaj Gurram
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.1">
 
 ## 0.3.1 (2026-02-08)
